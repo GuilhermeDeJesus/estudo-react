@@ -23,7 +23,7 @@ function AddTask({ addTaskForm }) {
       <button
         onClick={() => {
           if (!title.trim() || !description.trim()) {
-            alert("Preencha os campos corretamente seu viado");
+            alert("Preencha os campos corretamente");
           } else {
             addTaskForm(title, description);
             setTitle("");
